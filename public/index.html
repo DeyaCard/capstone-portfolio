@@ -12,7 +12,7 @@
 <body>
 
   <div class="main-container">
-    
+
 <!-- Header Begins -->
     <header class="main-header">
       <nav class="search-bar"
@@ -67,13 +67,76 @@
 
     </header>
 
-<!-- Header Ends -->
+    <!-- Header Ends -->
 
+    <div class="page-content-container">
 
+      <aside class="profile-sidebar">
+        <header>
+          <h1>Deya</h1>
+        </header>
+
+        <div class="profile-picture-container">
+          <img class="profile-pic" src="images/deya.jpg" alt="A profile picture of Deya, the creator of DeyaDrive.com">
+
+          <p class="personal-msg"><b>"Chillin' 🥶</b></p>
+
+          <ul class="gender-age">
+            <li>Female</li>
+            <li>xx years old</li>
+            <li>Portland,</li>
+            <li>OREGON</li>
+            <li>United States</li>
+          </ul>
+
+          <ul class="last-loggin">
+            <li>Last Login:</li>
+              <div id="current_date">
+                <script>
+                  date = new Date();
+                  year = date.getFullYear();
+                  month = date.getMonth();
+                  day = date.getDate();
+                  document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+                </script>
+              </div>
+          </ul>
+
+          <p class="pics-videos">View My: <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a></p>
+        </div>
+
+        <!-- Contact Box -->
+        <section class="contact-box">
+          <h2>Contacting Deya</h2>
+          <figure class="contact-images">
+            <img src="images/sendMailIcon.gif" alt="Send Message">
+            <img src="images/forwardMailIcon.gif" alt="Forward to Friend">
+            <img src="images/addFriendIcon.gif" alt="Add to Friends">
+            <img src="images/addFavoritesIcon.gif" alt="Add to Favorites">
+            <img src="images/messagefriend.gif" alt="Instant Message">
+            <img src="images/blockUser.gif" alt="Block User">
+            <img src="images/addToGroupIcon.gif" alt="Add to Group">
+            <img src="images/rankUserIcon.gif" alt="Rank User">
+          </figure>
+        </section>
+
+        <!-- URL -->
+
+        <section>
+          <h3><b>DreyaDrive URL:</b></h3>
+          <p>http://www.deyadrive.com</p>
+        </section>
+
+        <!-- Interests Section -->
+        
+
+      </aside>
+    </div>
+
+  
+  
+  
   </div>
-
-
-
 
 </body>
 </html>
