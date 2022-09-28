@@ -239,3 +239,54 @@ p {
 
 
 /* CONTACT BOX  */
+
+.contact-box {
+  border: 2px solid rgb(102, 153, 204);
+  height: 149px;
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.contact-box h2 {
+  color: white;
+  background-color: rgb(102, 153, 204);
+  height: 17px;
+  padding-left: 10px;
+}
+
+.contact-images {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+
+/* DEYA-DRIVE URL  */
+
+.deyadrive-url-box {
+  border: 1px solid rgb(102, 153, 204);
+  height: 26px;
+  margin-bottom: 24px;
+}
+
+.deyadrive-url-box h3,
+.deyadrive-url-box p {
+  margin: 0;
+  padding: 0;
+}
+
+.deyadrive-url-box h3 {
+  font-size: 8pt;
+  padding-left: 2px;
+}
+
+.deyadrive-url-box p {
+  padding-left: 6px;
+}
+
+
+/* SIDEBAR TABLE CLASS */
+
+
