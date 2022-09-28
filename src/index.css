@@ -363,3 +363,82 @@ p {
 .schools ul {
   margin-bottom: 2em;
 }
+
+
+/* MAIN COLUMN */
+
+main {
+  grid-area: main;
+}
+
+/* USER NETWORK */
+
+.user-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 433px;
+  margin: auto;
+  height: 75px;
+  border: 2px solid black;
+  margin-top: 13px;
+}
+
+.user-network h2 {
+  font-size: 12pt;
+}
+
+
+/* BLOG */
+
+.blog {
+  display: grid;
+  grid-auto-rows: 29px;
+  flex-direction: column;
+  margin-top: 13px;
+  margin-left: 12px;
+  margin-bottom: 16px;
+}
+
+.blog p {
+  margin-top: 3px;
+}
+
+
+/* BLURBS */
+
+.main-section-header {
+  background-color: #ffcc99;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 8px;
+}
+
+.main-section-h2 {
+  color: #FF6600;
+  margin-left: 20px;
+}
+
+.blurbs h3 {
+  margin: 0;
+  color: #FF6600;
+  font-size: 9pt;
+  margin-left: 15px;
+}
+
+.blurbs p:nth-of-type(5) {
+  margin-bottom: 2em;
+}
+
+.blurbs p {
+  margins: 0 10px 15px 15px;
+}
+
+.info {
+  color: green;
+  font-weight: bold;
+}
+
+
+/* FRIEND SPACE  */
+
