@@ -45,3 +45,39 @@ p {
 
 
 /* MAIN CONTAINER */
+
+.main-container {
+  margin: auto;
+  width: 800px;
+  background-color: white;
+}
+
+
+/* MAIN HEADER */
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 151px;
+  background-color: rgb(0, 51, 153);
+  color: #ffffff;
+}
+
+.main-header ul {
+  list-style-type: none;
+}
+
+.main-header a:link {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.main-header a:visited {
+  color: #ffffff;
+}
+
+
+/* SEARCH BAR */
+
+.
