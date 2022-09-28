@@ -163,3 +163,79 @@ p {
 
 /* PAGE CONTENT CONTAINER */
 
+.page-content-container {
+  display: grid;
+  grid-template-columns: 325px 453px;
+  grid-column-gap: 20px;
+  grid-template-areas: "sidebar main";
+}
+
+
+/* PROFILE SIDEBAR COLUMN */
+
+.profile-sidebar {
+  grid-area: sidebar;
+  margin-left: 27px;
+  width: 300px;
+}
+
+.h1 {
+  font-size: 12.25pt;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.profile-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* PROFILE PICTURE CONTAINER */
+
+.profile-picture-container {
+  display: grid;
+  grid-template-columns: 170px 115px;
+  grid-template-rows: 176px;
+  grid-column-gap: 15px;
+  margin-bottom: 12px;
+}
+
+.profile-picture-container p {
+  margin: 0;
+}
+
+.profile-pic {
+  grid-area: 1/1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.personal-msg {
+  grid-area: 1/2;
+  margin: 0;
+}
+
+.gender-age {
+  grid-area: 1/2;
+}
+
+.gender-age li:first-child {
+  margin-top: 28px;
+}
+
+.last-login {
+  grid-area: 1/2;
+  align-self: end;
+}
+
+.pics-videos {
+  grid-area: 1/1;
+  justify-self: center;
+  align-self: end;
+}
+
+
+/* CONTACT BOX  */
