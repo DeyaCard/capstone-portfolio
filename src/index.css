@@ -431,7 +431,7 @@ main {
 }
 
 .blurbs p {
-  margins: 0 10px 15px 15px;
+  margin: 0 10px 15px 15px;
 }
 
 .info {
@@ -442,8 +442,8 @@ main {
 
 /* FRIEND SPACE  */
 
-.friends-header {
-  margin-top: 6px;
+.friends header {
+  margin-bottom: 6px;
 }
 
 .friends p:nth-of-type(1) {
@@ -458,9 +458,9 @@ main {
 }
 
 .friend-pic-container {
-  display:grid;
-  grid-template-columns: repeat(4, 108px);
-  grid-template-rows: 106px 193px;
+  display: grid;
+  grid-template-columns: repeat(4, 109px);
+  grid-template-rows: 160px 193px;
 }
 
 .friend-pic-container figure {
@@ -479,6 +479,9 @@ main {
 .friends-list-link {
   display: flex;
   justify-content: flex-end;
+}
+
+.friends-list-link {
   margin-top: 7px;
   margin-right: 8px;
   margin-bottom: 30px;
@@ -582,7 +585,7 @@ footer ul {
 }
 
 footer li:after {
-  content: '|';
+  content: ' | ';
   font-weight: normal;
 }
 
